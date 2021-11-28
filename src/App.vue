@@ -1,30 +1,46 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="nav">
+    <router-link to="/" class="nav__link" active-class="link-active"
+      >Inicio</router-link
+    >
+    <router-link to="/about" class="nav__link" active-class="link-active"
+      >Proyectos</router-link
+    >
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 87.5rem;
 }
-
-#nav {
-  padding: 30px;
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
 }
-
-#nav a {
+.nav__link {
+  color: #000;
+  font-size: var(--step--1);
   font-weight: bold;
-  color: #2c3e50;
+  margin: 1.6rem 0 0 2rem;
+  text-decoration: none;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.link-active {
+  color: var(--color-primary);
 }
 </style>

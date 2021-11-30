@@ -3,7 +3,7 @@
     <router-link to="/" class="nav__link" active-class="link-active"
       >Inicio</router-link
     >
-    <router-link to="/about" class="nav__link" active-class="link-active"
+    <router-link to="/proyectos" class="nav__link" active-class="link-active"
       >Proyectos</router-link
     >
   </div>

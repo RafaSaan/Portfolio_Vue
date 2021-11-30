@@ -10,7 +10,7 @@
     >
       <template v-slot:img>
         <img
-          src="../../../assets/img/mia-ecommerce.png"
+          src="../../../assets/img/project-portfolio-preview.png"
           alt="proyecto ecommerce"
           class="card__img"
         />
@@ -25,14 +25,14 @@
     >
       <template v-slot:img>
         <img
-          src="../../../assets/img/mia-ecommerce.png"
+          src="../../../assets/img/project-control-reptiles-preview.png"
           alt="proyecto ecommerce"
           class="card__img"
         />
       </template>
     </CardPreviewProject>
     <CardPreviewProject
-      titleCard="Ecommerce React"
+      titleCard="Ecommerce "
       date="2021"
       type="Ecommerce"
       description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga

@@ -1,18 +1,19 @@
 <template>
-  <div class="cardPreview">
+  <div class="cardPoject">
     <slot name="img" />
-    <div class="card__info">
+    <div class="cardProject__info">
       <h3>{{ titleCard }}</h3>
-      <div class="card__type">
+      <div class="cardProject__type">
         <div class="card__date">{{ date }}</div>
         <span>{{ type }}</span>
       </div>
       <p>
         {{ description }}
       </p>
-      <div class="card__link" @click="$router.push({ name: 'proyectos' })">
-        Ver más.
-      </div>
+    </div>
+    <div class="">
+      <div>Ir al proyecto</div>
+      <div>Ir al repositorio</div>
     </div>
   </div>
 </template>
@@ -37,24 +38,35 @@ export default {
       required: true,
     },
   },
-  name: "cardPreviewProject",
+  name: "cardProject",
 };
 </script>
 
 <style>
-.cardPreview {
-  min-height: 13.75rem;
-  margin: 1rem 0;
+.cardPoject {
+  margin: 1rem 0 8rem 0;
+  display: flex;
+  flex-direction: column;
 }
-.card__info {
-  width: 100%;
+.img__project {
+  width: 17.5rem;
+  max-width: 42.625rem;
 }
-.card__info > h3 {
+.cardProject__info > h3 {
   font-size: var(--step-1);
   margin: 0.5rem 0;
 }
-.card__type {
+.cardProject__info > p {
+  font-size: var(--step--1);
+  max-width: 42.5rem;
+}
+.cardProject__type {
   display: flex;
+}
+.cardProject__type > span {
+  font-size: var(--step--1);
+  color: #8695a4;
+  padding-left: 1.6rem;
 }
 .card__date {
   width: 3.875rem;
@@ -65,25 +77,10 @@ export default {
   display: grid;
   place-items: center;
 }
-.card__type > span {
-  font-size: var(--step--1);
-  color: #8695a4;
-  padding-left: 1.6rem;
-}
-.card__info > p {
-  font-size: var(--step--2);
-  /* justify-self: flex-end; */
-}
-.card__link {
-  cursor: pointer;
-}
-@media screen and (min-width: 48em) {
-  .cardPreview {
-    display: flex;
-    align-items: center;
-  }
-  .card__info {
-    margin-left: 1.5rem;
+
+@media screen and (min-width: 31.25em) {
+  .img__project {
+    width: 55vw;
   }
 }
 </style>

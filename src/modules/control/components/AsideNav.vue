@@ -113,4 +113,7 @@ export default {
     width: 80%;
   }
 }
+svg:not(:root) {
+  overflow: visible;
+}
 </style>

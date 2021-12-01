@@ -11,10 +11,7 @@
         {{ description }}
       </p>
     </div>
-    <div class="">
-      <div>Ir al proyecto</div>
-      <div>Ir al repositorio</div>
-    </div>
+    <slot name="links" />
   </div>
 </template>
 
@@ -34,6 +31,13 @@ export default {
       required: true,
     },
     description: {
+      type: String,
+      required: true,
+    },
+    linkProject: {
+      type: String,
+    },
+    linkRepo: {
       type: String,
       required: true,
     },
@@ -76,6 +80,16 @@ export default {
   color: #fff;
   display: grid;
   place-items: center;
+}
+.cards__links > a,
+div {
+  font-size: var(--step--1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.cards__links {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 31.25em) {

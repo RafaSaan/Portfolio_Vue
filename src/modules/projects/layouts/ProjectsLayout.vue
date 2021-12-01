@@ -15,7 +15,18 @@
           alt="proyecto portafolio web"
         />
       </template>
+      <template v-slot:links>
+        <div class="cards__links">
+          <a
+            href="https://github.com/RafaSaan/Portfolio_Vue"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Ir al repositorio</a
+          >
+        </div>
+      </template>
     </CardProject>
+
     <CardProject
       titleCard="Control de Reptiles"
       date="2021"
@@ -30,7 +41,19 @@
           alt="proyecto control de reptiles"
         />
       </template>
+      <template v-slot:links>
+        <div class="cards__links">
+          <div @click="$router.push({ name: 'control' })">Ir al proyecto</div>
+          <a
+            href="https://github.com/RafaSaan/control-reptiles-vue"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Ir al repositorio</a
+          >
+        </div>
+      </template>
     </CardProject>
+
     <CardProject
       titleCard="Ecommerce"
       date="2021"
@@ -45,7 +68,24 @@
           alt="proyecto ecommerce"
         />
       </template>
+      <template v-slot:links>
+        <div class="cards__links">
+          <a
+            href="https://mia-san.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Ir al proyecto</a
+          >
+          <a
+            href="https://github.com/RafaSaan/E-commerce-React"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Ir al repositorio</a
+          >
+        </div>
+      </template>
     </CardProject>
+
     <CardProject
       titleCard="App de Tareas"
       date="2021"
@@ -59,6 +99,22 @@
           src="../../../assets/img/project-todo.png"
           alt="proyecto app de tareas"
         />
+      </template>
+      <template v-slot:links>
+        <div class="cards__links">
+          <a
+            href="https://tareas-san.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Ir al proyecto</a
+          >
+          <a
+            href="https://github.com/RafaSaan/Tareas-de-D-a-React"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Ir al repositorio</a
+          >
+        </div>
       </template>
     </CardProject>
   </div>

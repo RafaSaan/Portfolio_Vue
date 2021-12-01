@@ -1,4 +1,5 @@
 import { createRouter, createWebHashHistory } from "vue-router";
+import controlRouter from "../modules/control/router";
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
       import(
         /* webpackChunkName: "about" */ "../modules/projects/layouts/ProjectsLayout.vue"
       ),
+  },
+
+  {
+    path: "/control",
+    ...controlRouter,
   },
 ];
 

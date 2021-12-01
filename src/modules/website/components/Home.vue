@@ -11,7 +11,7 @@
       <h2>Hola! yo soy Rafa, Frontend Developer.</h2>
       <p>
         Hola! Soy Rafa, Frontend Developer, me caracterizo por la capacidad de
-        desarrollar software competente, efectivo, escalable y eficaz que se
+        desarrollar software competente, efectivo, escalable, eficaz que se
         traduzca en oportunidades de negocio y crecimiento.
       </p>
     </div>

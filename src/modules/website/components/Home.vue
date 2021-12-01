@@ -16,7 +16,13 @@
       </p>
     </div>
 
-    <button class="cta__cv">Descargar CV</button>
+    <a
+      href="https://firebasestorage.googleapis.com/v0/b/portafolio-san.appspot.com/o/Rafael-Sanchez.pdf?alt=media&token=fedbcf6f-3c37-49b8-af6a-2866ce46740c"
+      rel="noopener noreferrer"
+      target="_blank"
+      class="cta__cv"
+      >Descargar CV</a
+    >
   </main>
 </template>
 
@@ -52,11 +58,15 @@ export default {};
 }
 
 .cta__cv {
-  width: 13rem;
-  height: 2.9375rem;
-  border: none;
+  align-items: center;
   background: var(--color-primary);
+  border: none;
   color: #fff;
+  display: flex;
+  height: 2.9375rem;
+  justify-content: center;
+  text-decoration: none;
+  width: 13rem;
   /* grid-column: 2; */
 }
 

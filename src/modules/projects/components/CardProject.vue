@@ -10,6 +10,7 @@
       <p>
         {{ description }}
       </p>
+      <slot name="howDid" />
     </div>
     <slot name="links" />
   </div>
@@ -31,13 +32,6 @@ export default {
       required: true,
     },
     description: {
-      type: String,
-      required: true,
-    },
-    linkProject: {
-      type: String,
-    },
-    linkRepo: {
       type: String,
       required: true,
     },
@@ -81,8 +75,7 @@ export default {
   display: grid;
   place-items: center;
 }
-.cards__links > a,
-div {
+.cards__links > a {
   font-size: var(--step--1);
   cursor: pointer;
   text-decoration: none;

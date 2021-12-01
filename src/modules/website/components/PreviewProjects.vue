@@ -5,8 +5,8 @@
       titleCard="Portafolio"
       date="2021"
       type="Sitio Web"
-      description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-        laudantium possimus blanditiis rerum dolore ab unde amet numquam."
+      description="Este es un proyecto creado para dar a conocer quien soy, mis skills , mis otros proyectos
+      , diseñado con Figma y desarrollado con VueJs."
     >
       <template v-slot:img>
         <img
@@ -19,9 +19,10 @@
     <CardPreviewProject
       titleCard="Control de Reptiles"
       date="2021"
-      type="App de control"
-      description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-        laudantium possimus blanditiis rerum dolore ab unde amet numquam."
+      type="App Web"
+      description="Al ser amante de los reptiles, haber tenido algunos de manera legal, en base a mi experiencia
+      considero que el control de su alimentación, peso, mudas(cambio de piel), es esencial para tener al ejemplar en las 
+      mejores condiciones, por eso mismo he creado esta app."
     >
       <template v-slot:img>
         <img
@@ -35,8 +36,8 @@
       titleCard="Ecommerce "
       date="2021"
       type="Ecommerce"
-      description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-        laudantium possimus blanditiis rerum dolore ab unde amet numquam."
+      description="Debido a la alta demanda del mercado por tener una tienda en línea, desarrolle una, emplenado teconologias
+      que haran que el costo y mantenimiento de la mismas sea más accesible para los emprendedores."
     >
       <template v-slot:img>
         <img

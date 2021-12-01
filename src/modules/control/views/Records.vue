@@ -7,7 +7,7 @@
           @click="typeRecord = 'food'"
           :class="{ 'record-active': typeRecord === 'food' }"
         >
-          Alimentacion
+          Alimentación
         </div>
         <div
           @click="typeRecord = 'weight'"

@@ -8,10 +8,11 @@
       />
     </div>
     <div class="home__info">
-      <h2>Hola! yo soy Rafa, Desarrollador Web Jr.</h2>
+      <h2>Hola! yo soy Rafa, Frontend Developer.</h2>
       <p>
-        Soy una persona que esta en constante aprendizaje, tengo 20 años, vivo
-        en CDMX, amante de la tecnologia y los videojuegos.
+        Hola! Soy Rafa, Frontend Developer, me caracterizo por la capacidad de
+        desarrollar software competente, efectivo, escalable y eficaz que se
+        traduzca en oportunidades de negocio y crecimiento.
       </p>
     </div>
 

@@ -11,7 +11,7 @@
         {{ description }}
       </p>
       <div class="card__link" @click="$router.push({ name: 'proyectos' })">
-        Ver más.
+        Ver más detalles.
       </div>
     </div>
   </div>
@@ -76,6 +76,7 @@ export default {
 }
 .card__link {
   cursor: pointer;
+  color: #551a8b;
 }
 @media screen and (min-width: 48em) {
   .cardPreview {

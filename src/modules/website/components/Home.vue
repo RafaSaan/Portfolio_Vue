@@ -10,9 +10,10 @@
     <div class="home__info">
       <h2>Hola! yo soy Rafa, Frontend Developer.</h2>
       <p>
-        Hola! Soy Rafa, Frontend Developer, me caracterizo por la capacidad de
-        desarrollar software competente, efectivo, escalable, eficaz que se
-        traduzca en oportunidades de negocio y crecimiento.
+        Hola! Soy Rafa Frontend Developer, actualmente enfocado en desarrollo de
+        aplicaciones/sistemas web. Me motiva la idea de seguir desarrollando
+        sistemas escalables, efectivos, que se traduzca en oportunidades de
+        negocio y crecimiento.
       </p>
     </div>
 

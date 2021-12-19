@@ -18,7 +18,7 @@
     </div>
 
     <a
-      href="https://firebasestorage.googleapis.com/v0/b/portafolio-san.appspot.com/o/Rafael-Sanchez.pdf?alt=media&token=fedbcf6f-3c37-49b8-af6a-2866ce46740c"
+      href="https://firebasestorage.googleapis.com/v0/b/portafolio-san.appspot.com/o/Rafael-Sanchez.pdf?alt=media&token=e0f91be6-c165-4041-815e-3e0b270aa9cd"
       rel="noopener noreferrer"
       target="_blank"
       class="cta__cv"

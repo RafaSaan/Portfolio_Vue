@@ -13,7 +13,7 @@ header {
   width: 100%;
 
   height: 3.75rem;
-  background: var(--purple-primary);
+  background: #6b5bbc;
   display: grid;
   place-items: center;
 }

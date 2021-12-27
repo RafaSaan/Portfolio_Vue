@@ -8,6 +8,7 @@
         </template>
       </AsideNav>
 
+      <NoRecords v-if="$router.options.history.location === '/control'" />
       <router-view />
     </div>
 
@@ -80,6 +81,8 @@ import Modal from "../components/Modal";
 import { useModal } from "../composables/useModal";
 import { ref } from "vue";
 import useControl from "../composables/useControl";
+import { useRouter } from "vue-router";
+import NoRecords from "../views/NoRecords";
 
 export default {
   name: "controlLayout",
@@ -88,6 +91,7 @@ export default {
     AsideNav,
     BtnAddSpecimen,
     Modal,
+    NoRecords,
   },
 
   setup() {
@@ -104,6 +108,9 @@ export default {
       birth: "",
       id: "",
     });
+
+    const router = useRouter();
+    console.log(router);
 
     return {
       isOpen,

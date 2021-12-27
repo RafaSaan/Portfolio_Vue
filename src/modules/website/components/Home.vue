@@ -2,7 +2,7 @@
   <main class="home">
     <div class="home__img__container">
       <img
-        src="../../../assets/img/pic-profile-02.jpg"
+        src="../../../assets/img/profile_rafa_sanchez.jpg"
         alt="rafael sanchez"
         class="home__img"
       />
@@ -41,8 +41,13 @@ export default {};
   align-items: center;
   margin-top: 2.5rem;
 }
+.home__img__container {
+  width: 16rem;
+  height: 16rem;
+}
 .home__img {
   width: 16rem;
+  /* height: 16rem; */
   border-radius: 10rem;
 }
 .home__info {

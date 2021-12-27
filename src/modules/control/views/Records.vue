@@ -39,6 +39,7 @@ import RecordFood from "../views/RecordFood";
 import RecordSloughing from "../views/RecordSloughing";
 import { computed, ref } from "vue";
 import { useStore } from "vuex";
+import { useRouter } from "vue-router";
 
 export default {
   props: {
@@ -62,6 +63,8 @@ export default {
     const store = useStore();
 
     const typeRecord = ref("food");
+    const router = useRouter();
+    console.log(router);
 
     return {
       specimenInfo: computed(() =>

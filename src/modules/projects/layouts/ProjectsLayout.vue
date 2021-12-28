@@ -2,6 +2,45 @@
   <div class="projects">
     <h2>Proyectos</h2>
     <CardProject
+      titleCard="Sistema de Monitoreo(En Desarrollo)"
+      date="2021"
+      type="Sistema Web"
+      description="El proyecto fue pensado en demostrar cómo y que es lo que puedo hacer como Frontend Developer. Implementando un sistema de autenticación, creación de bases de datos, creación de API REST. "
+    >
+      <template v-slot:img>
+        <img
+          class="img__project"
+          src="../../../assets/img/dashboardProject.png"
+          alt="proyecto Dashboard"
+        />
+      </template>
+
+      <template v-slot:howDid>
+        <p>
+          Este proyecto fue desarrollado con tecnologías como Laravel-MySQL para
+          el Backend. Para el Frontend se usó VueJs, Vuex, VueRouter, Sistema de
+          módulos, Boostrap 5 y demás dependencias.
+        </p>
+      </template>
+
+      <template v-slot:links>
+        <div class="cards__links">
+          <a
+            href="https://github.com/RafaSaan/monitor-system"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Ir al repositorio Frontend</a
+          >
+          <a
+            href="https://github.com/RafaSaan/api.records"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Ir al repositorio Backend</a
+          >
+        </div>
+      </template>
+    </CardProject>
+    <CardProject
       titleCard="Portafolio"
       date="2021"
       type="Sitio Web"

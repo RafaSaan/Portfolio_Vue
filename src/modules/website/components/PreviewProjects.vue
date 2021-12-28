@@ -2,6 +2,20 @@
   <section class="previewProjects">
     <h3>Ultimos proyectos</h3>
     <CardPreviewProject
+      titleCard="Sistema de Monitoreo(En Desarrollo)"
+      date="2021"
+      type="Sistema Web"
+      description="El proyecto fue pensado en demostrar cómo y que es lo que puedo hacer como Frontend Developer. Implementando un sistema de autenticación, creación de bases de datos, creación de API REST. "
+    >
+      <template v-slot:img>
+        <img
+          src="../../../assets/img/dashboardProject-preview.png"
+          alt="proyecto ecommerce"
+          class="card__img"
+        />
+      </template>
+    </CardPreviewProject>
+    <CardPreviewProject
       titleCard="Portafolio"
       date="2021"
       type="Sitio Web"
